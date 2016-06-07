@@ -1,0 +1,143 @@
+
+    
+    html {
+      box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    html,
+    body {
+        /* important for fullscreen */
+        height: 100%;
+
+        /* remove unwanted margins and paddings */
+        margin: 0;
+        padding: 0;
+
+        /* set styles */
+        font-family: Courier, sans-serif;
+        color: #fff;
+    }
+
+    a:link,
+    a:visited, 
+    a:hover,
+    a:active {
+      color: white;
+    }
+
+    /* remove unwanted margins and paddings */
+    h1,h2,h3,h4,h5,h6,p {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+
+    h1,h4 {
+      position: absolute;
+    }
+
+    h4{
+      font-size: 25px;
+      font-style: oblique;
+    }
+
+    #wrapper{
+      width: 728px;
+      height: 90px;
+      margin: 0 auto;
+      position: relative;
+      /* background: rgba(173,216,230,.8); */
+      background: radial-gradient(circle, #009DFF, rgba(0, 157, 255,.5), #009DFF);
+      overflow: hidden;
+      /* border: 1px solid black; */
+    }
+
+    #tw_smart{
+      top: 10px;
+    }
+
+    #tw_scarf {
+      right: 187px;
+      top: 10px;
+      opacity: 0;
+    }
+
+    #photo{
+   /*    opacity: 0; */
+    }
+
+   #tw_colorfully{
+    position: absolute;
+      bottom: 8.5px;
+      left: 15.5px;
+      letter-spacing: .05rem;
+    }
+
+    #tw_colorfully span:nth-of-type(1){
+      color: blue;
+    }
+    #tw_colorfully span:nth-of-type(2){
+      color: yellow;
+    }   
+    #tw_colorfully span:nth-of-type(3){
+      color: green;
+    }
+    #tw_colorfully span:nth-of-type(4){
+      color: blue;
+    }   
+    #tw_colorfully span:nth-of-type(5){
+      color: orange;
+    }
+    #tw_colorfully span:nth-of-type(6){
+      color: red;
+    }    
+    #tw_colorfully span:nth-of-type(7){
+      color: yellow;
+    }
+    #tw_colorfully span:nth-of-type(8){
+      color: green;
+    }   
+    #tw_colorfully span:nth-of-type(9){
+      color: blue;
+    }
+    #tw_colorfully span:nth-of-type(10){
+      color: orange;
+    }  
+
+    #tw_link{
+      bottom: 9.5px;
+      left: 38px;
+      opacity:0;
+    } 
+
+    img{
+      width: 140px;
+      height: auto;
+      position: absolute;
+    }
+    #photo{
+      width: 120px;
+      top: 10px;
+      right: 16px;
+    }
+    #photo1{
+    bottom: -2px;
+    right: 167px;
+    width: 199px;
+    height: auto;
+    position: absolute;
+    }
+
+    .tab_scarf {
+      opacity:1;
+      top: 16px;
+      right: 243px;
+      position: absolute;
+      width: 48px;
+    }
